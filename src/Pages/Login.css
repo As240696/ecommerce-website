@@ -1,0 +1,88 @@
+.Login-container {
+    width: 100vw;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 100px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+}
+
+.Login-wrapper {
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.Login-wrapper h1 {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.Login-wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-wrapper form input {
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.Login-wrapper form button {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.Login-wrapper form button:hover {
+    background-color: #1c1b1b;
+}
+
+.Login-wrapper form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Login-wrapper form a {
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+}
+
+.Login-wrapper form a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 420px) {
+
+    .Login-wrapper {
+        width: 75%;
+    }
+
+    .Login-container {
+        background-position: right;
+    }
+
+}

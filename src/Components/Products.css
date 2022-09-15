@@ -1,0 +1,8 @@
+.Products-container {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #33313B;
+}
